@@ -27,7 +27,7 @@ You can find more details in the [Cloud Recording RESTful API Quickstart](https:
 
 - Open `Cloud_Recording.postman_environment.json` and enter values for the variables. You can find more details about these variables in [Agora Cloud Recording RESTful API](https://docs.agora.io/en/cloud-recording/cloud_recording_api_rest?platform=All%20Platforms).
 
-  - `APPID`: The [App ID](https://docs.agora.io/en/Agora%20Platform/terms?platform=All%20Platforms#a-nameappidaapp-id) used in the channel that you want to record.
+  - `APPID`: The [App ID](https://docs.agora.io/en/Agora%20Platform/terms?platform=All%20Platforms#a-nameappidaapp-id) used in the channel that you want to record. To obtain the APPID, you can create a project on Agora Console. Then, you will be able to access your APPID along with the project. 
   - `CustomerID`: Find your Customer ID and Customer Certificate on the RESTful API page in [Console](https://console.agora.io/). See [RESTful API authentication](https://docs.agora.io/en/faq/restful_authentication) for details.
   - `CustomerCertificate`: Find your Customer ID and Customer Certificate on the RESTful API page in [Console](https://console.agora.io/). See [RESTful API authentication](https://docs.agora.io/en/faq/restful_authentication) for details.
   - `resourceId`: You do not need to enter any value for this variable. This variable is automatically populated with the response of the `acquire` method.
